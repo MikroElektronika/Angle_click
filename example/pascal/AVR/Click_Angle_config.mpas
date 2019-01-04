@@ -1,0 +1,9 @@
+unit Click_Angle_config;
+
+uses Click_Angle_types;
+
+const
+    _ANGLE_I2C_CFG : array[1] of uint32_t = (100000); 
+    _ANGLE_UART_CFG : array[3] of uint32_t = (9600, _UART_NOPARITY, _UART_ONE_STOPBIT); 
+    
+end.

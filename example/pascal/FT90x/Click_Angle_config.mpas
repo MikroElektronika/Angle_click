@@ -1,0 +1,9 @@
+unit Click_Angle_config;
+
+uses Click_Angle_types;
+
+const
+    _ANGLE_I2C_CFG : array[2] of uint32_t = (_I2CM_SPEED_MODE_STANDARD, _I2CM_SWAP_DISABLE); 
+    _ANGLE_UART_CFG : array[1] of uint32_t = (9600); 
+    
+end.
